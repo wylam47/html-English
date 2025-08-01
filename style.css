@@ -1,28 +1,166 @@
-body {background-color: #FFD8D8}
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #FFD8D8;}
 
-*{color: #ff98f5;
-  font-size: 20px }
+.英文 {color: green;
+      font-size: 3rem}
+      
+.畫畫 {color: yellow;
+      font-size: 3rem}
 
 h1 {font-style: bold;
     color: #093FB4}
 
 h2 {font-family: sans-serif;
     font-weight: bold;
-    font-size: 24px } 
+    font-size: 24px;
+    color: #4834d4} 
 
 h3 {font-family: sans-serif;
-    font-weight: 18px } 
-
+    font-weight: 18px} 
 .note {font-size: 15px}
+
+*{color: indianred;
+  font-size: 20px}
+
+.photo {
+  width: 490px;
+  height: 300px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo1 {
+  width: 250px;
+  height: 160px;
+  display: block;
+  align-items: right;
+  justify-content: right;
+  float: right;
+}
+
+.photo2 {
+  width: 80px;
+  height: 110px;
+  display: block;
+  align-items: Right;
+  justify-content: Right;
+  float: right;
+}
+
+.photo3 {
+  width: 500px;
+  height: 600px;
+  display: inline-block;
+  align-items: center;
+  justify-content: Right;
+}
 
 html{background-color: #FCFFC1}
 
-#outer-box {background-color: #FB9EC6;}
+.outer-box {background-color: #FB9EC6;}
 .box {background-color: #FBB4A5; padding: 5px;} 
 .inner-box {background-color: #FCFFC1;}
 
 p {color: #D92C54;
   font-style: bold;
-  font-size: 30px}
+  font-size: 3rem}
 
+.orange1 {display: inline-block; width: 150px; height: 150px; background-color: #c4781a; justify-content: center; align-items: center}
+.orange2 {display: inline-block; width: 150px; height: 150px; background-color: #FCFFC1; justify-content: center; align-items: center}
+.orange3 {display: inline-block; width: 150px; height: 150px; background-color: #FFD8D8; justify-content: center; align-items: center}
+.orange4 {display: inline-block; width: 150px; height: 150px; background-color: #fffb81; justify-content: center; align-items: center}
+.orange5 {display: inline-block; width: 150px; height: 150px; background-color: #f74e84; justify-content: center; align-items: center}
+.orange6 {display: inline-block; width: 150px; height: 150px; background-color: #D92C54; justify-content: center; align-items: center}
+.orange7 {display: inline-block; width: 150px; height: 150px; background-color: #ff98f5; justify-content: center; align-items: center}
+.orange8 {display: inline-block; width: 150px; height: 150px; background-color: #D92C54; justify-content: center; align-items: center}
+.orange9 {display: inline-block; width: 150px; height: 150px; background-color: #f74e84; justify-content: center; align-items: center}
+.orange10 {display: inline-block; width: 150px; height: 150px; background-color:#fffb81; justify-content: center; align-items: center}
+.orange11 {display: inline-block; width: 150px; height: 150px; background-color:#f74e84; justify-content: center; align-items: center}
+.orange12 {display: inline-block; width: 150px; height: 150px; background-color:#fffb81; justify-content: center; align-items: center}
+.orange13 {display: inline-block; width: 150px; height: 150px; background-color:#f74e84; justify-content: center; align-items: center}
+.orange14 {display: inline-block; width: 150px; height: 150px; background-color:#fffb81; justify-content: center; align-items: center}
+.orange15 {display: inline-block; width: 150px; height: 150px; background-color:#D92C54; justify-content: center; align-items: center}
+.orange16 {display: inline-block; width: 150px; height: 150px; background-color:#f74e84; justify-content: center; align-items: center}
 
+.container {
+  color: white;
+  border: 5px solid #FCFFC1;
+  display: inline-flex;
+  flex-direction: horizontal;
+}
+
+.container > * {
+  flex-basis: 200px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+  
+.red {background-color: #eb4d4b;}
+.orange {background-color: #f0932b;}
+.yellow {background-color: #FED16A;}
+.green {background-color: #6ab04c;}
+.blue {background-color: #4834d4;}
+.indigo {background-color: #30336b;}
+.purple {background-color: #be2edd;}
+
+.Plan-Container {
+            display: flex; /* Change to flex for horizontal alignment */
+            justify-content: center;
+            align-items: flex-start; /* Align items to the top */
+            height: auto; /* Changed to auto for better responsiveness */
+            gap: 1rem;
+            padding: 5px;
+        }
+
+.Plan {
+      flex: 1;
+      max-width: 300px;
+      padding: 20px;
+      background-color: peru;
+      border-radius: 5px;
+      text-align: center;
+      flex-direction: horizontal;
+     }
+
+.Plan-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+     }
+
+.Plan-price {
+      font-size: 38px;
+      font-weight: bold;
+       margin-bottom: 10px;
+     }
+
+.Plan-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+     }
+
+.Plan-features li {
+      margin-bottom: 20px;
+     }
+
+.Plan-button {
+      padding: 10px;
+      background-color: #ff6600;
+      color: rgb(243, 122, 142);
+      border-radius: 5px;
+      border: none;
+     }
+
+*{color: rgb(230, 240, 170);
+      font-size: 20px}
+
+@media (max-width: 1250px) {
+      .Pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+}
